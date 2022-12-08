@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inquiries</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="header">
+    <h1>John Smith</h1>
+    </div>
+
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="AboutMe.html">About The Artist</a></li>
+    <li><a href="Inquiries.html"  class="active">Inquiries</a></li>
+    <li><a href="Gallery.html">Gallery</a></li>
+    </ul>
+
+    <h3>Inquiry Form</h3>
+    <div class="container">
+        <form>
+            <label>First Name</label>
+            <input autocomplete="given-name", type="given-name" firstName="First Name" placeholder="Your name..">
+            <br />
+            <label>Last Name</label>
+            <input autocomplete="family-name", type="family-name" lastName="Last Name" placeholder="Your last name..">
+            <br />
+            <label>Email</label>
+            <input autocomplete="Email", type="email" email="Email" placeholder="Email...">
+            <br />
+            <label>Phone Number</label>
+            <input autocomplete="tel", type="tel" phoneNumber="phoneNumber" placeholder="Phone number...">
+            <br />
+            <label>Street Adrress</label>
+            <input autocomplete="street-address", type="street-addrress" streetAddress="Street Address" placeholder="Street address..">
+            <br />
+            <label>City</label>
+            <input autocomplete="address-level2", type="address-level2" City="City" placeholder="City..">
+            <br />
+            <label>State</label>
+            <input autocomplete="address-level1", type="address-level1" State="State" placeholder="State..">
+            <br />
+            <label>Postal Code</label>
+            <input autocomplete="postal-code", type="postal-code" postalCode="Postal Code" placeholder="Postal Code..">
+            <br />
+            <label>Country</label>
+            <input autocomplete="country", type="country" country="Country" placeholder="Country..">
+            <br />
+            <label>Which piece are you interested in?
+                <select name="Art Piece">
+                    <option value="None"> Select an option</option>
+                    <option value="Piece 1">Piece 1</option>
+                    <option value="Piece 2">Piece 2</option>
+                    <option value="Piece 3">Piece 3</option>
+                    <option value="Piece 4">Piece 4</option>
+                    <option value="Piece 5">Piece 5</option>
+                    <option value="Piece 6">Piece 6</option>
+                </select>
+            </label>
+            <br />
+            <label>How did you hear about me?</label>
+            <textarea name="How did you hear about me" cols="30" rows="4" placeholder=""></textarea>
+            <br />
+            <label>Do you have any specific questions about the piece?</label>
+            <textarea name="Questions about piece" cols="30" rows="4" placeholder=""></textarea>
+
+            <input type="checkbox" name="signup" value="signup" checked="checked"/> Sign me up for email updates!
+
+            <button type="submit">Submit Inquiry</button>
+        </form>
+    </div>
+
+
+</body>
+</html>
