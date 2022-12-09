@@ -154,8 +154,25 @@ legend{
     width: 50%;
 }
 
+.ArtistInfo{
+    padding-top: 15px;
+}
 
+.ArtistDesc{
+    max-width: 50%;
+}
 
+.ArtistPhoto > img{
+    width: auto;
+    height: 250px;
+    border-radius: 50%;
+}
 
+.ArtistName{
+    font-weight: bold;
+    font-size: larger;
+    padding-top: 10px;
+    margin-bottom: -5px;
+}
 
 
