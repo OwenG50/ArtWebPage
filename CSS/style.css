@@ -140,9 +140,11 @@ input[type=submit]:hover {
 .galleryItems > row{
     display: flex;
     justify-content: space-around;
+    justify-self: center;
     text-align: center;
     background-color: antiquewhite;
     padding-bottom: 10px;
+
 }
 
 
