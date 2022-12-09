@@ -32,49 +32,55 @@
         <h3>Inquiry Form</h3>
         <form>
             <label>First Name</label>
-            <input autocomplete="given-name", type="given-name" firstName="First Name" placeholder="Your name..">
+            <input autocomplete="given-name", type="given-name" firstName="First Name" placeholder="Your name.." required>
             <br />
             <label>Last Name</label>
-            <input autocomplete="family-name", type="family-name" lastName="Last Name" placeholder="Your last name..">
+            <input autocomplete="family-name", type="family-name" lastName="Last Name" placeholder="Your last name.." required>
             <br />
             <label>Email</label>
-            <input autocomplete="Email", type="email" email="Email" placeholder="Email...">
+            <input autocomplete="Email", type="email" email="Email" placeholder="Email..." required>
             <br />
             <label>Phone Number</label>
             <input autocomplete="tel", type="tel" phoneNumber="phoneNumber" placeholder="Phone number...">
             <br />
             <label>Street Adrress</label>
-            <input autocomplete="street-address", type="street-addrress" streetAddress="Street Address" placeholder="Street address..">
+            <input autocomplete="street-address", type="street-addrress" streetAddress="Street Address" placeholder="Street address.." required>
             <br />
             <label>City</label>
-            <input autocomplete="address-level2", type="address-level2" City="City" placeholder="City..">
+            <input autocomplete="address-level2", type="address-level2" City="City" placeholder="City.." required>
             <br />
             <label>State</label>
-            <input autocomplete="address-level1", type="address-level1" State="State" placeholder="State..">
+            <input autocomplete="address-level1", type="address-level1" State="State" placeholder="State.." required>
             <br />
             <label>Postal Code</label>
-            <input autocomplete="postal-code", type="postal-code" postalCode="Postal Code" placeholder="Postal Code..">
+            <input autocomplete="postal-code", type="postal-code" postalCode="Postal Code" placeholder="Postal Code.." required>
             <br />
             <label>Country</label>
-            <input autocomplete="country", type="country" country="Country" placeholder="Country..">
+            <input autocomplete="country", type="country" country="Country" placeholder="Country.." required>
             <br />
             <label>Which piece are you interested in?
-                <select name="Art Piece">
+                <select name="Art Piece" required>
                     <option value="None"> Select an option</option>
-                    <option value="Piece 1">Piece 1</option>
-                    <option value="Piece 2">Piece 2</option>
-                    <option value="Piece 3">Piece 3</option>
-                    <option value="Piece 4">Piece 4</option>
-                    <option value="Piece 5">Piece 5</option>
-                    <option value="Piece 6">Piece 6</option>
+                    <option value="Piece 1">Galaxy of the unknown</option>
+                    <option value="Piece 2">A world yet to discover</option>
+                    <option value="Piece 3">Burst of excitement</option>
+                    <option value="Piece 4">Soft serve</option>
+                    <option value="Piece 5">Love rocks</option>
+                    <option value="Piece 6">Dia de Muertos</option>
+                    <option value="Piece 7">Wifey?</option>
+                    <option value="Piece 8">Alone or whatever</option>
+                    <option value="Piece 9">Dipped in grief</option>
+                    <option value="Piece 10">Series of my imagination</option>
+                    <option value="Piece 11">The waves of joy</option>
+
                 </select>
             </label>
             <br />
             <label>How did you hear about me?</label>
-            <textarea name="How did you hear about me" cols="30" rows="4" placeholder=""></textarea>
+            <textarea name="How did you hear about me" cols="30" rows="4" placeholder="(Optional)"></textarea>
             <br />
             <label>Do you have any specific questions about the piece?</label>
-            <textarea name="Questions about piece" cols="30" rows="4" placeholder=""></textarea>
+            <textarea name="Questions about piece" cols="30" rows="4" placeholder="(Optional)"></textarea>
 
             <input type="checkbox" name="signup" value="signup" checked="checked"/> Sign me up for email updates!
 

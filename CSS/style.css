@@ -101,6 +101,17 @@ input[type=submit]:hover {
     padding-bottom: 5px;
 }
 
+#sectionHeadGallery{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    background-color: antiquewhite;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
 .recentWorks{
     background-color: antiquewhite;
     display: flex;
@@ -118,12 +129,21 @@ input[type=submit]:hover {
     padding-left: 1%;
     padding-right: 1%;
     background-color: antiquewhite;
-    height: 1000px;
+    height: 950px;
 }
 
 .InquiryForm >h3{
     padding: 10px 10px 10px 5px;
 }
+
+.galleryItems > row{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: antiquewhite;
+    padding-bottom: 10px;
+}
+
 
 
 
